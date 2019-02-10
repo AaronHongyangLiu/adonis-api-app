@@ -1,6 +1,9 @@
 ## used for demoing the SQL error in database migration
 
 ### steps to recreate the error
+rename the ".env.example" file to ".env"
+
+then run:
 ```bsah
 npm install
 adonis migration:run
