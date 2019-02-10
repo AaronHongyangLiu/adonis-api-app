@@ -1,3 +1,15 @@
+## used for demoing the SQL error in database migration
+
+### steps to recreate the error
+```bsah
+npm install
+adonis migration:run
+adonis migration:refresh
+```
+
+
+# The following is the original README file on [adonis offical sample repo](https://github.com/adonisjs/adonis-api-app)
+----
 # Adonis API application
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
